@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.find-row{
+    /* border: 2px solid black; */
+    display: flex;
+    margin: 13px 0;
+}
+
+.find-para{
+    width: 50%;
+    display: flex;
+}
+.find-para p{
+    width: 40%;
+    font-size: 23px;
+    margin: auto auto;
+    justify-content: left;
+}
+.find-row img{
+    width: 50%;
+    height: 450px;
+    object-fit: cover;
+}
+/* contact form  */
+.contact-form{
+    /* border: 2px solid black; */
+    margin: 20px 0;
+    padding: 9px 25px;
+    background: rgba(255, 123, 145, 0.11);
+}
+.contact-form h1{
+    border-left: 2px solid black;
+    
+    font-size: 2.4rem;
+    margin: 15px 7px;
+}
+.contact-form input, .contact-form textarea{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: 13px;
+    padding: 8px;
+    /* border: none; */
+    outline: none;
+    background: rgba(18, 199, 212, 0.411);
+    /* font-weight: bold; */
+    font-size: 15px;
+    border: none;
+}
+
+
+.contact-form button{
+    margin: 15px;
+    padding: 8px;
+    outline: none;
+    font-weight: 500px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.map iframe{
+    width: 100%;
+    margin: 11px 0;
+}
+
+.find-foot{
+    height: 225px;
+    position: relative;
+    top: 58px;
+    background: #183153;
+    /* z-index: 100; */
+}
+@media screen and (max-width: 870px)
+{
+    .find-para p {
+        width: 65%;
+        font-size: 23px;
+        margin: auto auto;
+        justify-content: left;
+    }
+
+
+
+}
+
+
+@media screen and (max-width: 650px)
+{
+    .find-row{
+        flex-direction: column;
+    }
+    .find-para{
+        width: 100%;
+        display: flex;
+        margin: 5px 0;
+    }
+    .find-para p{
+        width: 90%;
+        font-size: 23px;
+        margin: 3px auto;
+        justify-content: center;
+        text-align: center;
+        border-bottom: 2px solid black;
+    }
+    .find-row img{
+        width: 100%;
+        height: 450px;
+        
+    }
+  
+    .contact-form h1{
+        border-left: none;
+        border-bottom: 2px solid black;        
+        font-size: 2.4rem;
+        margin: 15px 7px;
+        text-align: center;
+    }
+
+    .contact-form input, .contact-form textarea{
+        width: 100%;
+        margin: 5px auto;
+        padding: 8px;
+       
+    }
+    
+    .contact-form button{
+        margin: 15px auto;
+        display: flex;
+    }
+
+    .find-foot{
+        height: 246px;
+    }
+
+
+
+
+}
+
+
+
+
+
+
+
+
